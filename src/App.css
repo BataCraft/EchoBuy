@@ -12,8 +12,22 @@ width:100%;
 background-color:#FBFBFBFB ;
 font-family: "Playfair Display", serif;
 font-family: "Poppins", sans-serif;
+scroll-behavior: smooth;
 }
 
 .logo{
     font-family: "Playfair Display", serif;
+}
+
+
+#category{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#offerBanner{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#SingleProduct{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }

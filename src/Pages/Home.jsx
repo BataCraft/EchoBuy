@@ -1,17 +1,19 @@
 import React from 'react'
-import MainNav from '../Components/Header/MainNav'
+
 import OfferBanner from '../Components/HeroSection/OfferBanner'
+import Catagory from '../Components/Catagory'
+import Card from '../Components/Card/Card'
 
 const Home = () => {
   return (
    <>
-   <nav className='z-[999]'>
-      <MainNav/>
-   </nav>
+   {/*  */}
 
-   <section  >
+   <section className='w-full h-full flex ' >
+    <Catagory/>
     <OfferBanner/>
    </section>
+   <section> <Card/></section>
    
    </>
   )
